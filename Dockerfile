@@ -1,4 +1,4 @@
-# Build stage
+# Build stage with alpine image
 FROM node:20-alpine as build
 WORKDIR /app
 COPY package*.json ./
